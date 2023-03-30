@@ -1,0 +1,29 @@
+/* 
+    Custom variables
+    ========
+*/
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+@import "../../../node_modules/bootstrap/scss/helpers";
+@import "../../../node_modules/bootstrap/scss/utilities/api";
+
+$theme-colors: (
+  "primary": #8ab817
+);
+
+$h2-font-size: $font-size-base * 4;
+$table-border-color: $gray-500;
+$badge-font-size: .95rem;
+
+/* 
+    Core Bootstrap 
+    =========
+*/
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+//@import '../node_modules/bootstrap-icons/font/bootstrap-icons';
+@import 'mask'
